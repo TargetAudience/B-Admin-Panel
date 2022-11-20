@@ -1,0 +1,319 @@
+.pre-wrap {
+    background-color: #f0f2f5;
+    min-height: 100%
+}
+
+.pre-wrap .pre-inner {
+    position: relative;
+    padding: 60px 10px;
+    text-align: center
+}
+
+.pre-wrap .pre-inner .logo {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 20px;
+    width: 105px;
+    height: 84px;
+    background-repeat: no-repeat
+}
+
+.pre-wrap .pre-inner .background {
+    background-image: url(../images/logo@2x.png);
+    height: 100%;
+    background-size: 105px 84px
+}
+
+.pre-wrap .pre-inner .box {
+    border-radius: 4px;
+    padding: 34px 0 30px;
+    margin: 0 auto;
+    float: none;
+    max-width: 450px;
+    background: #fff;
+    border: 1px solid #e6e6e6
+}
+
+.pre-wrap .pre-inner .box .content-wrap {
+    text-align: left;
+    margin: 0 auto;
+    width: 68%;
+    font-size: 24px
+}
+
+.pre-wrap .pre-inner .box .content-wrap h6 {
+    font-weight: 500;
+    font-size: 24px;
+    margin: 0 0 20px
+}
+
+.pre-wrap .pre-inner .box .content-wrap button {
+    width: 100%
+}
+
+.pre-wrap .pre-inner .box .content-wrap .button {
+    background: #ff49b8;
+    cursor: pointer;
+    text-align: center;
+    min-width: 100%;
+    line-height: 41px;
+    height: 40px;
+    display: inline-block;
+    padding: 0 20px;
+    font-size: .875rem;
+    font-weight: 600;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    -webkit-transition: all .2s;
+    transition: all .2s;
+    text-decoration: none;
+    position: relative
+}
+
+.pre-wrap .pre-inner .box .content-wrap .button:hover {
+    background: #f237a9
+}
+
+.pre-wrap .pre-inner .box .content-wrap p {
+    font-size: 14px;
+    color: #7f8fa4;
+    line-height: 20px;
+    margin-bottom: 20px
+}
+
+.field-wrap {
+    position: relative
+}
+
+.field-wrap:not(:last-child) {
+    margin-bottom: 18px
+}
+
+.field-wrap input {
+    -webkit-transition: all .2s;
+    transition: all .2s;
+    width: 100%;
+    font-size: .875rem;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    outline: none;
+    padding-top: 2px;
+    line-height: 36px;
+    padding-left: .8rem;
+    padding-right: .8rem;
+    background: #fff;
+    border: 1px solid #d5dce6;
+    -webkit-box-shadow: inset 0 2px 0 0 #f2f5f8;
+            box-shadow: inset 0 2px 0 0 #f2f5f8;
+    border-radius: 4px
+}
+
+.label-wrap {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: .4rem;
+    -webkit-box-align: end;
+    -webkit-align-items: flex-end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between
+}
+
+.label-wrap span {
+    font-weight: 600;
+    min-width: 30px;
+    line-height: 15px;
+    font-size: 14px;
+    color: #7f8fa4
+}
+
+.label-wrap-two {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: .4rem;
+    -webkit-box-align: end;
+    -webkit-align-items: flex-end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between
+}
+
+.label-wrap-two .main {
+    font-size: .875rem;
+    color: #7f8fa4;
+    padding-right: 1rem;
+    font-weight: 600
+}
+
+.label-wrap-two .main,
+.label-wrap-two span {
+    min-width: 30px;
+    line-height: 1rem
+}
+
+.label-wrap-two span {
+    -webkit-flex-shrink: 0;
+        -ms-flex-negative: 0;
+            flex-shrink: 0;
+    font-size: .8rem;
+    color: #7f8fa4
+}
+
+.input-wrap {
+    position: relative;
+    clear: both
+}
+
+.link-wrap {
+    text-align: center;
+    margin-top: 20px;
+    display: block
+}
+
+.link-wrap .link {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 600;
+    color: #7f8fa4
+}
+
+.link-wrap .link:hover {
+    text-decoration: underline
+}
+
+.bottom-wrap {
+    margin: 2rem auto 0;
+    font-size: .875rem;
+    color: #333c48;
+    font-weight: 500;
+    max-width: 400px;
+    text-align: center
+}
+
+.bottom-wrap a {
+    font-weight: 600;
+    -webkit-transition: all .2s;
+    transition: all .2s;
+    color: #343d49;
+    text-decoration: none
+}
+
+.bottom-wrap a:hover {
+    text-decoration: underline
+}
+
+.bottom-wrap p {
+    margin-top: 10px
+}
+
+.input-split {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between
+}
+
+.input-split>* {
+    min-width: 100px;
+    width: calc(50% - 5px)
+}
+
+.checkbox-wrap {
+    display: inline-block;
+    cursor: pointer;
+    line-height: 17px;
+    margin: 15px 0;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-weight: 600
+}
+
+.checkbox-wrap input {
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    position: absolute;
+    visibility: hidden
+}
+
+.checkbox-wrap .label {
+    color: #333c48;
+    font-size: .875rem;
+    line-height: 19px;
+    font-weight: 600;
+    color: #7f8fa4;
+    display: inline-block
+}
+
+.checkbox-wrap .label:before {
+    text-align: center;
+    line-height: 14px;
+    -webkit-transform: translateY(-1px);
+        -ms-transform: translateY(-1px);
+        transform: translateY(-1px);
+    padding-left: 1px;
+    color: #fff;
+    width: 15px;
+    height: 15px;
+    content: "\E90F";
+    font-family: dashboard;
+    font-size: 7px;
+    background-color: #fff;
+    border: 1px solid #dfe3e9;
+    border-radius: 3px;
+    margin-right: 10px;
+    display: inline-block;
+    -webkit-transition: border .2s, background .2s;
+    transition: border .2s, background .2s;
+    vertical-align: middle
+}
+
+.checkbox-wrap.checked span,
+.checkbox-wrap:not(.unchecked) input:checked+span {
+    color: #333c48
+}
+
+.checkbox-wrap.checked span:before,
+.checkbox-wrap:not(.unchecked) input:checked+span:before {
+    background-color: #ec3c2d;
+    border-color: #ec3c2d
+}
+
+.checkbox-wrap .label span a {
+    color: #6bacff
+}
+
+
+.button-wrap {
+    position: relative;
+    overflow: hidden;
+    height: 40px;
+    -webkit-transition: all .1s ease-in-out;
+    transition: all .1s ease-in-out
+}
+
+.button-spinner {
+    position: absolute;
+    top: 20px;
+    left: 50%
+}

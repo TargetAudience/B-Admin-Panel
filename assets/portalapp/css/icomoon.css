@@ -1,0 +1,137 @@
+@font-face {
+    font-family: icomoon2;
+    src: url(../icons/icomoon2/icomoon.eot?e5f65k);
+    src: url(../icons/icomoon2/icomoon.eot?e5f65k#iefix) format("embedded-opentype"), url(../icons/icomoon2/icomoon.ttf?e5f65k) format("truetype"), url(../icons/icomoon2/icomoon.woff?e5f65k) format("woff"), url(../icons/icomoon2/icomoon.svg?e5f65k#icomoon) format("svg");
+    font-weight: 400;
+    font-style: normal
+}
+
+[class*=" icon2-"],
+[class^=icon2-] {
+    font-family: icomoon2!important;
+    speak: none;
+    font-style: normal;
+    font-weight: 400;
+    -webkit-font-feature-settings: normal;
+    font-feature-settings: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-chat:before {
+  content: "\e913";
+}
+.active .icon-microphone:before {
+  content: "\e911";
+}
+.icon-microphone:before {
+  content: "\e912";
+}
+
+.icon-video:before {
+  content: "\e667";
+}
+.active .icon-video:before {
+  content: "\e954";
+}
+
+.icon-laughing-face:before {
+  content: "\e90e";
+}
+.icon-sad-face:before {
+  content: "\e90f";
+}
+.icon-smiling-face:before {
+  content: "\e910";
+}
+
+.icon-cc-paypal:before {
+  content: "\e90d";
+  /* color: #5382c9; */
+}
+
+.icon-credit-card1:before {
+  content: "\e76e";
+}
+.icon-credit-card:before {
+  content: "\e90c";
+}
+
+.icon-icon-account-payable {
+    font-size: 19px;
+}
+.icon-icon-account-receivable {
+    font-size: 19px;
+}
+
+.icon-icon-account-payable:before {
+  content: "\37";
+}
+.icon-icon-account-receivable:before {
+  content: "\38";
+}
+.icon-icon-idea:before {
+  content: "\e9a8";
+}
+.icon-mail:before {
+  content: "\e970";
+}
+.icon-user:before {
+  content: "\e80d";
+}
+
+.icon-wallet:before {
+  content: "\e90b";
+}
+
+
+.icon-coffee-cup:before {
+    content: "\e908"
+}
+
+.icon-arrow-down:before {
+    content: "\e907"
+}
+
+.icon-arrow-right-2:before {
+    content: "\e909"
+}
+
+.icon-information-solid:before {
+    content: "\e906"
+}
+
+.icon-cursor:before {
+    content: "\e905"
+}
+
+.icon-arrow-right:before {
+    content: "\e904"
+}
+
+.icon2-arrow:before {
+    content: "\e903"
+}
+
+/*
+.icon-cancel:before,
+.icon-close:before,
+.icon-dismiss:before,
+.icon-remove:before {
+    content: "\e900"
+}*/
+
+.icon-clock:before,
+.icon-schedule:before,
+.icon-time:before {
+    content: "\e901"
+}
+
+.icon-add:before,
+.icon-plus:before,
+.icon-sum:before {
+    content: "\e902"
+}

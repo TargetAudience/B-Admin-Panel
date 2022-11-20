@@ -1,0 +1,135 @@
+@font-face {
+	font-family: 'icomoon';
+	src:url('../../icons/icomoon/icomoon.eot?-rdnm34');
+	src:url('../../icons/icomoon/icomoon.eot?#iefix-rdnm34') format('embedded-opentype'),
+		url('../../icons/icomoon/icomoon.woff?-rdnm34') format('woff'),
+		url('../../icons/icomoon/icomoon.ttf?-rdnm34') format('truetype'),
+		url('../../icons/icomoon/icomoon.svg?-rdnm34#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Default custom select styles */
+div.cs-select {
+	display: inline-block;
+	/* vertical-align: middle; */
+	position: relative;
+	text-align: left;
+	/* background: #fff; */
+	z-index: 100;
+	width: 100%;
+	max-width: 500px;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+div.cs-select:focus {
+	outline: none; /* For better accessibility add a style for this in your skin */
+}
+
+.cs-select select {
+	display: none;
+}
+
+.cs-select span {
+	display: block;
+	position: relative;
+	cursor: pointer;
+	/* padding: 1em; */
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	padding-right: 0;
+	background: #fff;
+	/* border: 1px solid red; */
+	padding: 14px 0px 11px 12px;
+}
+
+/* Placeholder and selected option */
+.cs-select > span {
+	padding-right: 3em;
+}
+
+.cs-select > span::after,
+.cs-select .cs-selected span::after {
+	speak: none;
+	position: absolute;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.cs-select > span::after {
+	content: '\E012';
+	right: 1em;
+}
+
+.cs-select .cs-selected span::after {
+	content: '\E012';
+	/* margin-left: 1em; */
+	margin-left: 5px;
+	margin-top: 1px;
+}
+
+.cs-select.cs-active > span::after {
+	-webkit-transform: translateY(-50%) rotate(180deg);
+	transform: translateY(-50%) rotate(180deg);
+}
+
+div.cs-active {
+	z-index: 200;
+}
+
+/* Options */
+.cs-select .cs-options {
+	position: absolute;
+	overflow: hidden;
+	width: 100%;
+	background: #fff;
+	visibility: hidden;
+	border: 1px solid #e8e8e8;
+	border-top: 0;
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+	/* margin-top: 1px; */
+}
+
+.cs-select.auto.small .cs-options {width: auto;width: 200px;}
+.cs-select.auto .cs-options {width: auto;width: 360px;}
+.cs-select.auto .cs-options ul li:last-child  {border-top: 1px solid #dddddd;}
+.cs-select.cs-active .cs-options {
+	visibility: visible;
+}
+
+.cs-select ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	color: #1f1f1f;
+	max-height: 240px;
+	overflow-y: auto;
+}
+
+.cs-select ul span {
+	/* padding: 1em; */
+}
+
+.cs-select ul li.cs-focus span {
+	background-color: #ddd;
+}
+
+/* Optgroup and optgroup label */
+.cs-select li.cs-optgroup ul {
+	padding-left: 1em;
+}
+
+.cs-select li.cs-optgroup > span {
+	cursor: default;
+}

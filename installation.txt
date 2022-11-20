@@ -1,0 +1,25 @@
+======================
+INSTALLATION AND SETUP
+======================
+
+I'm using MAMP Pro as my PHP and MySQL service. The regular MAMP should work fine as well.
+
+We are using PHP 7.3.15 on the live server. I'm using 7.4.12 locally for development with no compatibility issues.
+
+Next, install composer on your machine and run "composer install" or "composer update" from the command line where composer.json is located.
+
+Next, add write permissions to system/smarty/templates_c and logs/portalapp.log.
+
+Setup your local web server as normal and edit the system/configs/config.php file to reflect your local setup.
+
+For config.php:
+UPLOAD_FOLDER_MEDIA and UPLOAD_FOLDER point to the boomhealth-api as the images are stored there (for the time being).
+
+We're going to be moving config.php to an .env file to make it easier for everyone.
+
+Our shared development database is at:
+
+Host: ls-7f719c83fe5c627e9891d0a52afd9d2da8fea5a3.calwhpe15vau.ca-central-1.rds.amazonaws.com
+Username: dbmasteruser
+Password: VQqwEvu77vu{Z_njg(,&mF<I}}CM2RCs
+Port: 3306

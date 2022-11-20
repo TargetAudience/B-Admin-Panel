@@ -1,0 +1,6 @@
+{
+    "require": {
+        "twilio/sdk": "^5.27",
+        "ramsey/uuid": "^4.1"
+    }
+}

@@ -1,0 +1,127 @@
+
+@font-face {
+	font-family: 'icomoon';
+	src:url('../../icons/icomoon/icomoon.eot?-rdnm34');
+	src:url('../../icons/icomoon/icomoon.eot?#iefix-rdnm34') format('embedded-opentype'),
+		url('../../icons/icomoon/icomoon.woff?-rdnm34') format('woff'),
+		url('../../icons/icomoon/icomoon.ttf?-rdnm34') format('truetype'),
+		url('../../icons/icomoon/icomoon.svg?-rdnm34#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+div.cs-skin-border {
+	min-width: 140px;
+	margin-right: 8px;
+	max-width: 140px;
+}
+div.cs-skin-border.width-md {min-width: 160px;max-width: 160px;/* padding-right: 120px; */}
+div.cs-skin-border.width-lg {max-width: 170px;/* margin-right: 10px; */}
+div.cs-skin-border.width-xl {max-width: 190px;/* margin-right: 10px; */}
+
+div.cs-skin-border.width-lg.cs-skin-border > span {height: 32px;/* padding: 10px 12px 0px 12px; *//* padding-right: 22px; */}
+
+
+div.cs-skin-border.width-sm {max-width: 145px;}
+
+
+@media screen and (max-width: 30em) {
+	div.cs-skin-border { font-size: 1em; }
+}
+
+.cs-skin-border > span {
+	/* */
+	border-color: inherit;
+	-webkit-transition: background 0.2s, border-color 0.2s;
+	transition: background 0.2s, border-color 0.2s;
+	/* border-color: #e0e0e0; */
+	color: #1f1f1f;
+	box-sizing: border-box;
+	/* text-align: center; */
+	font-size: 12px;
+	font-weight: 700;
+	text-transform: uppercase;
+	/* background-color: transparent; */
+	color: #1d91e6;
+	/* margin-right: 8px; */
+	/* border-width: 1px; */
+	/* border-style: solid; */
+	/* border-image: initial; */
+	border-radius: 4px;
+	text-decoration: none;
+	padding: 9px 7px 0px 12px;
+	/* border-color: #1d91e6; */
+	height: 30px;
+	/* border-color: #e0e0e0; */
+	color: #1f1f1f;
+	/* border-bottom-left-radius: 0px; */
+	/* border-bottom-right-radius: 0; */
+	background: #fbfbfb;
+}
+
+
+.cs-skin-border.thin-border > span {border: 1px solid #1f1f1f;/* padding-bottom: 21px; */height: 32px;}
+.cs-skin-border.thin-border.blue > span {border-color: #168be6;color: #107bce;padding-right: 20px;}
+
+
+.cs-skin-border > span::after,
+.cs-skin-border .cs-selected span::after {
+	font-family: 'icomoon';
+	/* content: '\e000'; */
+}
+
+.cs-skin-border ul span::after {
+	/* content: ''; */
+	/* opacity: 0; */
+}
+
+.cs-skin-border .cs-selected span::after {
+	content: '\e00e';
+	color: #2a80b9;
+	font-size: 2em;
+	opacity: 1;
+	-webkit-transition: opacity 0.2s;
+	transition: opacity 0.2s;
+}
+
+.cs-skin-border.cs-active > span {
+	background: #4aa8f1;
+	border-color: #4aa8f1;
+	color: #ffffff;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0;
+}
+
+.cs-skin-border.cs-active.blue > span {
+	background: #fff;
+	border-color: #4aa8f1;
+	
+}
+
+.cs-skin-border .cs-options {
+	color: #2980b9;
+	font-size: 12px;
+	opacity: 0;
+	-webkit-transition: opacity 0.2s, visibility 0s 0.2s;
+	transition: opacity 0.2s, visibility 0s 0.2s;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+
+.cs-skin-border.cs-active .cs-options {
+	opacity: 1;
+	-webkit-transition: opacity 0.2s;
+	transition: opacity 0.2s;
+}
+
+.cs-skin-border ul span {
+	/* padding: 1em 2em; */
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.cs-skin-border .cs-options li span:hover,
+.cs-skin-border li.cs-focus span {
+	background: #f1f0f0;
+}
